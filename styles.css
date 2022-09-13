@@ -1,0 +1,151 @@
+/*I chose to style my sheet using element sorting since it seems the most intuitive */
+/*sectioning and structuring*/
+body {
+    font-family:monospace;
+}
+
+nav {
+    font-size:larger;
+    background-color:silver;
+    padding: 5px;
+}
+
+
+figcaption {
+    text-align:center;
+}
+
+footer {
+    text-align:center;
+    color:rgb(70, 74, 79);
+    background-color:silver;
+}
+
+div {
+    border: 1px outset silver;
+}
+
+/*heading*/
+
+/*h1, headers*/
+h1, h4 {
+    color:grey;
+    text-transform:uppercase;
+}
+/*media*/
+img {
+    margin: 0px auto;
+    padding: 5px;
+    border: 5px solid lightblue;
+    width:200px;
+    height:200px;
+}
+
+img.align-center {
+    display: block;
+    margin: 0px auto;
+
+}
+img.medium {
+    border: 10px solid silver;
+    width: 300px;
+    height: 300px;
+}
+
+/*forms*/
+
+legend {
+    text-transform:uppercase;
+    font-size: 150%;
+}
+
+/*table*/
+table {
+    border:5px outset silver;
+    padding: 15px;
+    border-spacing: 5px;
+    }
+th {
+    border: none;
+    color:black;
+    background-color: none;
+    opacity: .9;
+    padding: 5px;
+    width: 200px;
+}
+
+
+
+/*table */
+tr, td {
+    background-color: inherit;
+    text-align:center;
+}
+
+/*alternating colors for readability*/
+tr:nth-child(even) {
+    background-color: silver;
+}
+
+
+/*phasing, links*/
+
+
+a:link {
+    color:teal;
+    text-decoration:none;
+}
+
+a:visited {
+    color:darkblue;
+}
+
+a:hover {
+    color:blue;
+    background-color:lightblue;
+}
+
+a:active {
+    color:black;
+}
+
+/*attributes*/
+
+
+/*headings are different colors for form*/
+.day {
+    background-color:lightsteelblue;
+}
+
+.type {
+    background-color:lightblue;
+}
+
+.special-message{
+    text-align: center;
+}
+
+/*Form colors*/
+#details {
+    background-color:lightblue;
+    opacity: .9;
+
+}
+
+#experiences {
+    background-color:lightsteelblue;
+    opacity: .9;
+}
+
+
+/*don't know how to get the correct link for font-face*/
+
+
+#first-paragraph {
+    font-family: "Raleway";
+}
+
+p {
+    overflow: auto;
+    width: 100%;
+}
